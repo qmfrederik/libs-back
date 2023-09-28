@@ -48,7 +48,7 @@ terminate(int sig)
 /* Initialize AppKit backend */
 + (void) initializeBackend
 {
-  NSDebugLog(@"Initializing GNUstep headless server.\n");
+  NSDebugLog(@"Initializing GNUstep headless backend.\n");
   [GSDisplayServer setDefaultServerClass: [HeadlessServer class]];
   signal(SIGTERM, terminate);
   signal(SIGINT, terminate);

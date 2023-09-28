@@ -36,6 +36,9 @@ SUBPROJECT_NAME=headless
 headless_OBJC_FILES = \
 HeadlessContext.m \
 HeadlessServer.m \
+HeadlessFontInfo.m \
+HeadlessFontEnumerator.m \
+HeadlessFaceInfo.m
 
 -include GNUmakefile.preamble
 
