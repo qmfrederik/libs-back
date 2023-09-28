@@ -1,7 +1,12 @@
 /* HeadlessServer.m - Headless Server
  * 
  *  Copyright (c) 2023 Keysight Technologies
- * 
+ *  Copyright (C) 1998,2002,2023 Free Software Foundation, Inc.
+ *
+ *  Re-written by: Gregory John Casamento <greg.casamento@gmail.com>
+ *  Based on work by: Marcian Lytwyn <gnustep@advcsi.com> for Keysight
+ *  Based on work Written by:  Adam Fedor <fedor@gnu.org>
+ *
  *  This library is free software; you can redistribute it and/or
  *  modify it under the terms of the GNU Library General Public
  *  License as published by the Free Software Foundation; either
@@ -19,8 +24,34 @@
 
 #include "config.h"
 
-#include "Headless/HeadlessServer.h"
+#include <AppKit/NSApplication.h>
+#include <Foundation/NSDebug.h>
+
+#include "headless/HeadlessServer.h"
+
+/* Terminate cleanly if we get a signal to do so */
+static void
+terminate(int sig)
+{
+  if (nil != NSApp)
+    {
+      [NSApp terminate: NSApp];
+    }
+  else
+    {
+      exit(1);
+    }
+}
 
 @implementation HeadlessServer
+
+/* Initialize AppKit backend */
++ (void) initializeBackend
+{
+  NSDebugLog(@"Initializing GNUstep headless server.\n");
+  [GSDisplayServer setDefaultServerClass: [HeadlessServer class]];
+  signal(SIGTERM, terminate);
+  signal(SIGINT, terminate);
+}
 
 @end

@@ -19,7 +19,7 @@
 
 #include "config.h"
 
-#include "Headless/HeadlessContext.h"
+#include "headless/HeadlessContext.h"
 
 @implementation HeadlessContext
 
