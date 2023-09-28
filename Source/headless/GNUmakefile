@@ -38,7 +38,8 @@ HeadlessContext.m \
 HeadlessServer.m \
 HeadlessFontInfo.m \
 HeadlessFontEnumerator.m \
-HeadlessFaceInfo.m
+HeadlessFaceInfo.m \
+HeadlessGState.m
 
 -include GNUmakefile.preamble
 

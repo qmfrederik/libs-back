@@ -26,6 +26,7 @@
 
 #include <AppKit/NSApplication.h>
 #include <Foundation/NSDebug.h>
+#include <Foundation/NSValue.h>
 
 #include "headless/HeadlessServer.h"
 
@@ -54,4 +55,52 @@ terminate(int sig)
   signal(SIGINT, terminate);
 }
 
+- (NSArray *)screenList
+{
+  NSDebugLog(@"GNUstep headless - fetching screen list");
+  NSMutableArray *screens = [NSMutableArray arrayWithCapacity: 1];
+  [screens addObject: [NSNumber numberWithInt: 1]];
+
+  return screens;
+}
+
+- (NSRect) boundsForScreen: (int)screen
+{
+ return NSMakeRect(0, 0, 400, 400);
+}
+
+- (NSWindowDepth) windowDepthForScreen: (int) screen_num
+{
+  return 0;
+}
+
+- (void) styleoffsets: (float *) l : (float *) r : (float *) t : (float *) b
+		     : (unsigned int) style
+{
+}
+
+- (void) standardcursor: (int)style : (void **)cid
+{
+}
+
+
+- (int) window: (NSRect)frame
+		    : (NSBackingStoreType)type
+		    : (unsigned int)style
+		    : (int)screen
+{
+    return 1;
+}
+
+- (void) setwindowlevel: (int)level : (int)win
+{
+}
+
+- (void) setWindowdevice: (int)win forContext: (NSGraphicsContext *)ctxt
+{
+}
+
+- (void) orderwindow: (int)op : (int)otherWin : (int)winNum
+{
+}
 @end

@@ -25,6 +25,8 @@
 #include <GNUstepGUI/GSDisplayServer.h>
 
 @interface HeadlessServer : GSDisplayServer
+{
+}
 @end
 
 #endif /* HeadlessServer_h_INCLUDE */
