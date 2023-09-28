@@ -103,4 +103,12 @@ terminate(int sig)
 - (void) orderwindow: (int)op : (int)otherWin : (int)winNum
 {
 }
+
+- (void) setinputfocus: (int)win
+{
+}
+
+- (void) imagecursor: (NSPoint)hotp : (NSImage *)image : (void **)cid
+{
+}
 @end
