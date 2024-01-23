@@ -1,3 +1,8 @@
+// ========== Keysight Technologies Added Changes To Satisfy LGPL 2.x Section 2(a) Requirements ========== 
+// Committed by: Paul Landers 
+// Commit ID: 71864f8dea9a7fe625662d2b4c8bc2ba915bafde 
+// Date: 2016-10-12 16:30:03 +0000 
+// ========== End of Keysight Technologies Notice ========== 
 // Windows documentation - see: https://msdn.microsoft.com/en-us/library/windows/desktop/bb773352(v=vs.85).aspx
 // Several members of this structure are only supported for Windows 2000 and later. To enable these members, 
 //  include one of the following lines in your header:

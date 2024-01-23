@@ -1,3 +1,8 @@
+// ========== Keysight Technologies Added Changes To Satisfy LGPL 2.x Section 2(a) Requirements ========== 
+// Committed by: Marcian Lytwyn 
+// Commit ID: 6712f810fa4f127b371e3e32fa02cc889c0ffb93 
+// Date: 2016-05-26 14:13:26 +0000 
+// ========== End of Keysight Technologies Notice ========== 
 // stdafx.h : include file for standard system include files,
 // or project specific include files that are used frequently, but
 // are changed infrequently

@@ -1,3 +1,8 @@
+// ========== Keysight Technologies Added Changes To Satisfy LGPL 2.x Section 2(a) Requirements ========== 
+// Committed by: Marcian Lytwyn 
+// Commit ID: ab5a7d11988ac671273ec9a47c85d5fe65e49c3f 
+// Date: 2020-03-05 10:42:47 -0500 
+// ========== End of Keysight Technologies Notice ========== 
 /* GSBackend - backend initialize class
 
    Copyright (C) 2002 Free Software Foundation, Inc.

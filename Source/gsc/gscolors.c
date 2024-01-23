@@ -1,3 +1,8 @@
+// ========== Keysight Technologies Added Changes To Satisfy LGPL 2.x Section 2(a) Requirements ========== 
+// Committed by: Marcian Lytwyn 
+// Commit ID: a33848a32142a1d7739da17a8210274bbc378f3c 
+// Date: 2016-05-16 17:24:26 +0000 
+// ========== End of Keysight Technologies Notice ========== 
 /* gscolors - Color conversion routines
 
    Copyright (C) 1998 Free Software Foundation, Inc.
