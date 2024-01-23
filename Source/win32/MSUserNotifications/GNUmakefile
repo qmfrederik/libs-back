@@ -1,3 +1,8 @@
+# ========== Keysight Technologies Added Changes To Satisfy LGPL 2.x Section 2(a) Requirements ========== 
+# Committed by: Paul Landers 
+# Commit ID: 52b5e5b88ca06a14371e696b6427ea6aca4bda39 
+# Date: 2019-04-02 10:52:59 -0600 
+# ========== End of Keysight Technologies Notice ========== 
 ifeq ($(GNUSTEP_MAKEFILES),)
  GNUSTEP_MAKEFILES := $(shell gnustep-config --variable=GNUSTEP_MAKEFILES 2>/dev/null)
   ifeq ($(GNUSTEP_MAKEFILES),)

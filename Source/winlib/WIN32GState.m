@@ -1,3 +1,8 @@
+// ========== Keysight Technologies Added Changes To Satisfy LGPL 2.x Section 2(a) Requirements ========== 
+// Committed by: Marcian Lytwyn 
+// Commit ID: d33e2bc044ee3eba818868eacb0c9350b00247a4 
+// Date: 2017-06-28 17:31:14 +0000 
+// ========== End of Keysight Technologies Notice ========== 
 /* WIN32GState - Implements graphic state drawing for MSWindows
 
    Copyright (C) 2002 Free Software Foundation, Inc.

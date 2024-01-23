@@ -1,3 +1,8 @@
+# ========== Keysight Technologies Added Changes To Satisfy LGPL 2.x Section 2(a) Requirements ========== 
+# Committed by: Marcian Lytwyn 
+# Commit ID: ab73cb7dff342d7c5d746bf9ec54c0ff66a067ed 
+# Date: 2016-05-11 21:38:29 +0000 
+# ========== End of Keysight Technologies Notice ========== 
 #
 #  This library is free software; you can redistribute it and/or
 #  modify it under the terms of the GNU Lesser General Public

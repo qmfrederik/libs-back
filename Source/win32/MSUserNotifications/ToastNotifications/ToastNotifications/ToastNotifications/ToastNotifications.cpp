@@ -1,3 +1,8 @@
+// ========== Keysight Technologies Added Changes To Satisfy LGPL 2.x Section 2(a) Requirements ========== 
+// Committed by: Marcian Lytwyn 
+// Commit ID: 07b36d7c7bf8aed649dff6626aac4c333ba1262f 
+// Date: 2016-12-14 23:27:06 +0000 
+// ========== End of Keysight Technologies Notice ========== 
 // ToastNotifications.cpp : Defines the initialization routines for the DLL.
 //
 

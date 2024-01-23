@@ -1,3 +1,8 @@
+# ========== Keysight Technologies Added Changes To Satisfy LGPL 2.x Section 2(a) Requirements ========== 
+# Committed by: Marcian Lytwyn 
+# Commit ID: c37e8b3255f7f94faab99dc602725893cfa4c5fd 
+# Date: 2017-12-11 18:00:37 +0000 
+# ========== End of Keysight Technologies Notice ========== 
 #
 #  Main makefile for GNUstep Backend win32
 #

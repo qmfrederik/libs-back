@@ -1,3 +1,8 @@
+// ========== Keysight Technologies Added Changes To Satisfy LGPL 2.x Section 2(a) Requirements ========== 
+// Committed by: Bill Everett 
+// Commit ID: 82bf9cd7c41c92f1d636ef27e9d98148eabbe33b 
+// Date: 2018-12-13 23:13:42 +0000 
+// ========== End of Keysight Technologies Notice ========== 
 /*
    Win32CairoSurface.m
 

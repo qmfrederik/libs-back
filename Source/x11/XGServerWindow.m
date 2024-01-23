@@ -1,3 +1,8 @@
+// ========== Keysight Technologies Added Changes To Satisfy LGPL 2.x Section 2(a) Requirements ========== 
+// Committed by: Marcian Lytwyn 
+// Commit ID: 2cb655c4635ec38d1010b5848f1c37ccf1ae28a3 
+// Date: 2016-11-29 15:21:50 +0000 
+// ========== End of Keysight Technologies Notice ========== 
 /* XGServerWindows - methods for window/screen handling
 
    Copyright (C) 1999 Free Software Foundation, Inc.
